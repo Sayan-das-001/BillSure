@@ -1,0 +1,79 @@
+{
+  "title": "BillSure",
+  "tagline": "Your AI-Powered Patient Advocate",
+  "navbar": {
+    "analyze_now": "Analyze Now"
+  },
+  "home": {
+    "hero_title": "Stop Overpaying for Healthcare",
+    "hero_subtitle": "Your AI-powered patient advocate. Analyze medical bills, identify overcharges, and save money with confidence.",
+    "get_started": "Get Started Free",
+    "how_it_works": "How It Works",
+    "how_it_works_subtitle": "Three simple steps to protect yourself from medical overcharging",
+    "feature_upload": {
+      "title": "Upload Bill",
+      "description": "Simply upload your medical bill in JPG, PNG, or PDF format"
+    },
+    "feature_ai": {
+      "title": "AI Analysis",
+      "description": "Our AI analyzes your bill against standard Indian market rates"
+    },
+    "feature_savings": {
+      "title": "Find Savings",
+      "description": "Identify overcharges and calculate potential savings"
+    },
+    "feature_complaint": {
+      "title": "Generate Complaint",
+      "description": "Download a formal complaint letter for your records"
+    }
+  },
+  "dashboard": {
+    "title": "Analyze Your Medical Bill",
+    "subtitle": "Upload your bill and let our AI identify potential overcharges"
+  },
+  "upload": {
+    "title": "Upload Your Medical Bill",
+    "description": "Upload a JPG, PNG, or PDF of your hospital bill. Our AI will analyze it against standard Indian market rates.",
+    "drag_drop": "Drag & drop your bill here",
+    "browse": "browse",
+    "or": "or",
+    "analyze_btn": "Analyze Bill",
+    "analyzing": "Analyzing...",
+    "scanning": "Scanning your bill...",
+    "error_file_type": "Please upload a JPG, PNG, or PDF file",
+    "error_no_file": "Please select a file first"
+  },
+  "analysis": {
+    "bill_info": "Bill Information",
+    "hospital": "Hospital",
+    "patient": "Patient",
+    "date": "Date",
+    "savings_title": "Total Potential Savings",
+    "total_amount": "Total Bill Amount",
+    "savings_percentage": "Savings Percentage",
+    "items_title": "Bill Items Analysis",
+    "flagged_count": "Flagged",
+    "service": "Service",
+    "quantity": "Quantity",
+    "price": "Price",
+    "status": "Status",
+    "flagged": "Flagged",
+    "ok": "OK",
+    "no_items": "No items found in the bill",
+    "download_complaint": "Download Complaint PDF"
+  },
+  "footer": {
+    "text": "BillSure - Empowering patients with transparent healthcare pricing"
+  },
+  "language": {
+    "select": "Select Language",
+    "regions": {
+      "North": "North",
+      "South": "South",
+      "East": "East",
+      "West": "West",
+      "Classical": "Classical"
+    }
+  }
+}
+

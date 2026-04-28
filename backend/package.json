@@ -1,0 +1,26 @@
+{
+  "name": "billbiopsy-server",
+  "version": "1.0.0",
+  "description": "BillBiopsy backend server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@langchain/core": "^1.1.8",
+    "@langchain/groq": "^1.0.2",
+    "cors": "^2.8.5",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "groq-sdk": "^0.37.0",
+    "langchain": "^1.2.3",
+    "multer": "^1.4.5-lts.1",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.17.2"
+  }
+}

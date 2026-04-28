@@ -1,0 +1,1238 @@
+{
+  "bills": [
+    {
+      "id": "1777397666900",
+      "timestamp": "2026-04-28T17:34:26.900Z",
+      "hospital_name": "Apollo Hospitals Jubilee Hills Hyderabad",
+      "patient_name": "Asirayya Kommala",
+      "bill_date": "12-Jan-2023",
+      "city": "Hyderabad",
+      "total_amount": 84121.54000000001,
+      "potential_savings": 52421.54,
+      "line_items": [
+        {
+          "service": "ROOM",
+          "quantity": 1,
+          "price": 18000,
+          "flagged": true,
+          "standard_price": 7500,
+          "savings": 10500,
+          "reason": "Charged ₹18000 for room, fair price for 3 days at ₹2500/day is ₹7500 (Admission 10-Jun 7:22 AM, Discharge 12-Jun 10:06 AM)."
+        },
+        {
+          "service": "RENT",
+          "quantity": 1,
+          "price": 22765.54,
+          "flagged": true,
+          "standard_price": 1500,
+          "savings": 22765.54,
+          "reason": "Suspicious separate charge for 'RENT', potentially for medical equipment or facilities that should be included or separately itemized."
+        },
+        {
+          "service": "PHARMAY",
+          "quantity": 1,
+          "price": 21000,
+          "flagged": true,
+          "standard_price": 15000,
+          "savings": 6000,
+          "reason": "Charged ₹21000 for pharmacy, fair price for a 3-day stay with moderate medication needs is ₹15000. Likely inflated drug prices."
+        },
+        {
+          "service": "MEDICAL",
+          "quantity": 1,
+          "price": 4400,
+          "flagged": true,
+          "standard_price": 2500,
+          "savings": 1900,
+          "reason": "Vague 'Medical' charge, likely covers basic services for which ₹2500 would be a conservative fair price. Charged ₹4400, fair price ₹2500."
+        },
+        {
+          "service": "EQUIPMENT",
+          "quantity": 1,
+          "price": 4118,
+          "flagged": true,
+          "standard_price": 1500,
+          "savings": 4118,
+          "reason": "Suspicious separate charge for medical equipment, usually included in procedure/room charges or specific items should be detailed."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 4860,
+          "flagged": true,
+          "standard_price": 3200,
+          "savings": 1660,
+          "reason": "Charged ₹4860 for consultations. Fair price for 4 consultations (e.g., admission, daily rounds, discharge) at ₹800/consultation is ₹3200."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 4118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 4118,
+          "reason": "Suspicious separate charge for consumables, usually included in procedure/room charges or specific items should be detailed."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 4860,
+          "flagged": true,
+          "standard_price": 3500,
+          "savings": 1360,
+          "reason": "Charged ₹4860 for investigations. Fair price for common lab tests/X-rays for a 3-day stay is ₹3500. Without detail, it's flagged as potentially overpriced."
+        }
+      ]
+    },
+    {
+      "id": "1767507328683",
+      "timestamp": "2026-01-04T06:15:28.683Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "13-Jan-2013",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 5143.54,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": true,
+          "standard_price": 2500,
+          "savings": 1500,
+          "reason": "Charged ₹4000, fair price ₹2500 (Tier-2 City Private Room Cap). Bill date 2013, fair price for 2024-2025."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 1500,
+          "savings": 1265.54,
+          "reason": "Charged ₹2765.54, fair price ₹1500.00 (Conservative estimate for pharmacy bill in Tier-2 city)."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 700,
+          "savings": 300,
+          "reason": "Charged ₹1000.00, fair price ₹700.00 (Conservative estimate for medical equipment rental/usage in Tier-2 city)."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": true,
+          "standard_price": 800,
+          "savings": 1600,
+          "reason": "Charged ₹2400.00, fair price ₹800.00 (Doctor Consultation Cap). Bill date 2013, fair price for 2024-2025."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1118,
+          "reason": "Charged ₹2118.00, fair price ₹1000.00 (Conservative estimate for consumables in Tier-2 city)."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 2000,
+          "savings": 860,
+          "reason": "Charged ₹2860.00, fair price ₹2000.00 (Conservative estimate for investigations in Tier-2 city)."
+        }
+      ]
+    },
+    {
+      "id": "1767506987989",
+      "timestamp": "2026-01-04T06:09:47.989Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "13-Jan-2013",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 4855.59,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": false,
+          "standard_price": 7500,
+          "savings": 0,
+          "reason": "Charged amount is below the maximum fair price limit for 3 nights of private room rent (₹2500/day)."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2304.62,
+          "savings": 460.9200000000001,
+          "reason": "Unitemized pharmacy charges are suspicious and often include significant markups. Estimated 20% overcharge for fair price calculation."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment, typically included in room or procedure fees and should not be billed separately."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": true,
+          "standard_price": 1600,
+          "savings": 800,
+          "reason": "Charged ₹2400 for consultations. Fair price for two primary consultations is ₹1600 (₹800 each). This exceeds 120% of fair price (1.2 * 1600 = ₹1920)."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 2118,
+          "reason": "Suspicious separate charge for consumables, often inflated or bundled with other services and should not be billed separately."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 2383.33,
+          "savings": 476.6700000000001,
+          "reason": "Unitemized investigations, making it difficult to verify charges. Estimated 20% overcharge for fair price calculation."
+        }
+      ]
+    },
+    {
+      "id": "1767455142993",
+      "timestamp": "2026-01-03T15:45:42.993Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "2014-01-13",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 4443.54,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": false,
+          "standard_price": 7500,
+          "savings": 0,
+          "reason": "Charged ₹4000 for 3 days of room rent, fair total price (3 days x ₹2500/day) is ₹7500. Not overpriced."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2300,
+          "savings": 465.53999999999996,
+          "reason": "Charged ₹2765.54, estimated fair price for 3-day pharmacy items (non-itemized) ₹2300. Likely includes significant markups."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment. Should generally be included in room rent or specific procedure charges."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": false,
+          "standard_price": 2400,
+          "savings": 0,
+          "reason": "Charged ₹2400 for consultations, fair price for 3 consultations (3 x ₹800/consultation) is ₹2400."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 2118,
+          "reason": "Suspicious separate charge for consumables. Should generally be included in room rent or procedure charges."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 2000,
+          "savings": 860,
+          "reason": "Charged ₹2860, estimated fair price for non-itemized investigations ₹2000. Individual test prices are often inflated."
+        }
+      ]
+    },
+    {
+      "id": "1767454991597",
+      "timestamp": "2026-01-03T15:43:11.597Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "13-Jan-2013 10:06 AM",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 7283.54,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": true,
+          "standard_price": 2500,
+          "savings": 1500,
+          "reason": "Charged ₹4000, fair price ₹2500 (exceeds 120% of cap)"
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2200,
+          "savings": 565.54,
+          "reason": "Lump sum pharmacy charge, detailed bill needed for audit. Estimated fair price ₹2200."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment, typically included in room rent or package."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": true,
+          "standard_price": 1600,
+          "savings": 800,
+          "reason": "Lump sum consultation charge. Assuming 2 consultations at fair price ₹800 each (total ₹1600), charged price is excessive."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 700,
+          "savings": 1418,
+          "reason": "Suspicious separate charge for consumables. Estimated fair price ₹700."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 1500,
+          "savings": 1360,
+          "reason": "Lump sum investigation charge, detailed reports needed. Estimated fair price ₹1500."
+        }
+      ]
+    },
+    {
+      "id": "1767453760853",
+      "timestamp": "2026-01-03T15:22:40.853Z",
+      "hospital_name": "Apollo Hospitals",
+      "patient_name": "Patient Name Not Available",
+      "bill_date": "2014-01-13",
+      "city": "Bangalore",
+      "total_amount": 11143.54,
+      "potential_savings": 4743.54,
+      "line_items": [
+        {
+          "service": "Pharmacy",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2300,
+          "savings": 465.53999999999996,
+          "reason": "Charged ₹2765.54, fair price ₹2300 (conservative estimate for 2024-2025). Exceeds 120% of fair price."
+        },
+        {
+          "service": "Medical Equipment",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment, usually bundled with room/procedure charges."
+        },
+        {
+          "service": "Consultations",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": true,
+          "standard_price": 1600,
+          "savings": 800,
+          "reason": "Charged ₹2400, fair price ₹1600 (based on ₹800 per doctor consultation cap for 2 consultations). Exceeds 120% of fair price."
+        },
+        {
+          "service": "Consumables",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 2118,
+          "reason": "Suspicious separate charge for consumables, usually bundled with other services."
+        },
+        {
+          "service": "Investigations",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 2500,
+          "savings": 360,
+          "reason": "Lack of detailed breakdown for investigations (e.g., specific tests) makes this charge suspicious for potential markup."
+        }
+      ]
+    },
+    {
+      "id": "1767452739633",
+      "timestamp": "2026-01-03T15:05:39.633Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "13-Jan-2013",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 4643.54,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": false,
+          "standard_price": 7500,
+          "savings": 0,
+          "reason": "Charged ₹4000 for an estimated 3-day stay (Jan 10-13, 2014), which is below the fair price of ₹2500 per day (total ₹7500)."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2100,
+          "savings": 665.54,
+          "reason": "Aggregated pharmacy charges, unable to verify individual drug prices; estimated conservative fair price of ₹2100 (assuming common hospital markup reduction) makes charged amount > 120% of fair price."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment, which should generally be included in room or procedure costs."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": false,
+          "standard_price": 2400,
+          "savings": 0,
+          "reason": "Charged ₹2400 for an estimated 3 consultations (₹800 per consultation based on 3-day stay), matching the fair price limit."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 2118,
+          "reason": "Suspicious separate charge for consumables, which should generally be included in procedure costs or room rent."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 2000,
+          "savings": 860,
+          "reason": "Aggregated investigations, unable to verify specific tests; estimated conservative fair price of ₹2000 for a typical set of basic investigations makes charged amount > 120% of fair price."
+        }
+      ]
+    },
+    {
+      "id": "1767452573008",
+      "timestamp": "2026-01-03T15:02:53.008Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "13-Jan-2013",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 3955.39,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": false,
+          "standard_price": 7500,
+          "savings": 0,
+          "reason": "Charged ₹4000 for room rent for a 3-day stay (Jan 10-13), which is below the fair price of ₹2500 per day (₹7500 total)."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2404.82,
+          "savings": 360.7199999999998,
+          "reason": "Lump sum pharmacy charges without itemization. Estimated 15% overcharge (charged ₹2765.54, fair price ₹2404.82)."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment, typically included in room or procedure charges."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": false,
+          "standard_price": 2400,
+          "savings": 0,
+          "reason": "Charged ₹2400 for consultations, which is fair for 3 consultations (one per day for the 3-day admission) at ₹800 each."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 2118,
+          "reason": "Suspicious separate charge for consumables, typically included in daily care or procedure charges."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 2383.33,
+          "savings": 476.6700000000001,
+          "reason": "Lump sum investigations charges without itemization. Estimated 20% overcharge (charged ₹2860.00, fair price ₹2383.33)."
+        }
+      ]
+    },
+    {
+      "id": "1767452484989",
+      "timestamp": "2026-01-03T15:01:24.989Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "2014-01-13",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 6343.54,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": true,
+          "standard_price": 2500,
+          "savings": 1500,
+          "reason": "Charged ₹4000, fair price ₹2500 for a private room. Exceeds 120% of fair price."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2100,
+          "savings": 665.54,
+          "reason": "Charged ₹2765.54, estimated fair price ₹2100 for unitemized pharmacy items (2024-2025 estimate). Lack of itemization is suspicious for potential markup."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment, usually bundled with room/procedure charges."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": false,
+          "standard_price": 2400,
+          "savings": 0,
+          "reason": "Assumed 3 consultations for a 3-day stay, at a fair price of ₹800 each (total ₹2400)."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 2118,
+          "reason": "Suspicious separate charge for consumables, usually bundled with room/procedure charges."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 1800,
+          "savings": 1060,
+          "reason": "Charged ₹2860, estimated fair price ₹1800 for general investigations (2024-2025 estimate). Lack of itemization is suspicious for potential markup."
+        }
+      ]
+    },
+    {
+      "id": "1767452007211",
+      "timestamp": "2026-01-03T14:53:27.211Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "13-Jan-2013",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 5331.11,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": false,
+          "standard_price": 7500,
+          "savings": 0,
+          "reason": "Charged ₹4000 for 3 days (10-Jan to 13-Jan), which is below the maximum fair price of ₹7500 (3 x ₹2500 per day)."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2212.43,
+          "savings": 553.1100000000001,
+          "reason": "Charged ₹2765.54, estimated conservative fair market price for medicines is ₹2212.43 (assuming 20% hospital markup on fair price)."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment, typically bundled with room or procedure charges."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": true,
+          "standard_price": 1600,
+          "savings": 800,
+          "reason": "Charged ₹2400 for unspecified consultations, estimated fair price for 2 consultations is ₹1600 (2 x ₹800 per consultation cap)."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 2118,
+          "reason": "Suspicious separate charge for consumables, typically bundled with procedure or treatment costs."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 2000,
+          "savings": 860,
+          "reason": "Charged ₹2860 for unspecified investigations, estimated conservative fair market price is ₹2000 for a typical set of tests."
+        }
+      ]
+    },
+    {
+      "id": "1767450103220",
+      "timestamp": "2026-01-03T14:21:43.220Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "13-Jan-2014",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 5238.92,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": false,
+          "standard_price": 7500,
+          "savings": 0,
+          "reason": "Charged ₹4000 for 3 days (₹1333.33/day), fair daily price limit is ₹2500 (total ₹7500)."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": true,
+          "standard_price": 2304.62,
+          "savings": 460.9200000000001,
+          "reason": "Charged ₹2765.54, fair price estimate ₹2304.62 (assuming max 20% markup on medicines)."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1000,
+          "savings": 1000,
+          "reason": "Suspicious separate charge for medical equipment, typically bundled with room/procedure charges."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": true,
+          "standard_price": 1600,
+          "savings": 800,
+          "reason": "Charged ₹2400 for consultations. Fair price for 2 consultations (₹800 each) is ₹1600. Lacks itemized breakdown."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 2118,
+          "savings": 2118,
+          "reason": "Suspicious separate charge for consumables, typically bundled with procedures or daily charges."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": true,
+          "standard_price": 2000,
+          "savings": 860,
+          "reason": "Charged ₹2860 for general investigations, fair price estimate for basic tests is ₹2000."
+        }
+      ]
+    },
+    {
+      "id": "1767449744389",
+      "timestamp": "2026-01-03T14:15:44.389Z",
+      "hospital_name": "APOLLO HOSPITALS",
+      "patient_name": "Saravana kumar V",
+      "bill_date": "2014-01-13",
+      "city": "Bangalore",
+      "total_amount": 15143.54,
+      "potential_savings": 3118,
+      "line_items": [
+        {
+          "service": "ROOM RENT",
+          "quantity": 1,
+          "price": 4000,
+          "flagged": false,
+          "standard_price": 7500,
+          "savings": 0,
+          "reason": "Patient stayed for 3 days (Jan 10-13). Fair price for 3 days at ₹2500/day cap is ₹7500. Charged price is below this."
+        },
+        {
+          "service": "PHARMACY",
+          "quantity": 1,
+          "price": 2765.54,
+          "flagged": false,
+          "standard_price": 2500,
+          "savings": 0,
+          "reason": "Estimated conservative fair market price for pharmacy items is ₹2500. Charged price ₹2765.54 is not > 120% of ₹2500 (₹3000)."
+        },
+        {
+          "service": "MEDICAL EQUIPMENT",
+          "quantity": 1,
+          "price": 1000,
+          "flagged": true,
+          "standard_price": 1500,
+          "savings": 1000,
+          "reason": "Marked as suspicious: Medical equipment should not be charged separately as per audit rules; generally bundled with other service charges or room rent."
+        },
+        {
+          "service": "CONSULTATIONS",
+          "quantity": 1,
+          "price": 2400,
+          "flagged": false,
+          "standard_price": 2400,
+          "savings": 0,
+          "reason": "Assuming 3 consultations over 3 days (₹800/consultation cap), fair price would be ₹2400. Charged price matches fair estimate."
+        },
+        {
+          "service": "CONSUMABLES",
+          "quantity": 1,
+          "price": 2118,
+          "flagged": true,
+          "standard_price": 1500,
+          "savings": 2118,
+          "reason": "Marked as suspicious: Consumables should not be charged separately as per audit rules; generally bundled with other service charges or room rent."
+        },
+        {
+          "service": "INVESTIGATIONS",
+          "quantity": 1,
+          "price": 2860,
+          "flagged": false,
+          "standard_price": 2500,
+          "savings": 0,
+          "reason": "Estimated conservative fair market price for general investigations is ₹2500. Charged price ₹2860 is not > 120% of ₹2500 (₹3000)."
+        }
+      ]
+    }
+  ],
+  "rateCard": {
+    "room rent": {
+      "prices": [
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:15:44.391Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:21:43.221Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:53:27.216Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:01:24.992Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:02:53.012Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:05:39.638Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:43:11.605Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:45:42.997Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:09:48.002Z"
+        },
+        {
+          "price": 4000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:15:28.690Z"
+        }
+      ],
+      "lastUpdated": "2026-01-04T06:15:28.690Z",
+      "averagePrice": 4000
+    },
+    "pharmacy": {
+      "prices": [
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:15:44.391Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:21:43.221Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:53:27.216Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:01:24.992Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:02:53.012Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:05:39.638Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:22:40.856Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:43:11.606Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:45:42.997Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:09:48.002Z"
+        },
+        {
+          "price": 2765.54,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:15:28.690Z"
+        }
+      ],
+      "lastUpdated": "2026-01-04T06:15:28.690Z",
+      "averagePrice": 2765.5400000000004
+    },
+    "medical equipment": {
+      "prices": [
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:15:44.391Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:21:43.221Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:53:27.216Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:01:24.992Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:02:53.012Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:05:39.638Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:22:40.856Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:43:11.606Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:45:42.997Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:09:48.002Z"
+        },
+        {
+          "price": 1000,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:15:28.690Z"
+        }
+      ],
+      "lastUpdated": "2026-01-04T06:15:28.690Z",
+      "averagePrice": 1000
+    },
+    "consultations": {
+      "prices": [
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:15:44.392Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:21:43.221Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:53:27.216Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:01:24.992Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:02:53.012Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:05:39.638Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:22:40.856Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:43:11.606Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:45:42.997Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:09:48.002Z"
+        },
+        {
+          "price": 2400,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:15:28.690Z"
+        },
+        {
+          "price": 4860,
+          "city": "Hyderabad",
+          "timestamp": "2026-04-28T17:34:26.904Z"
+        }
+      ],
+      "lastUpdated": "2026-04-28T17:34:26.904Z",
+      "averagePrice": 2605
+    },
+    "consumables": {
+      "prices": [
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:15:44.392Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:21:43.221Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:53:27.216Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:01:24.992Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:02:53.012Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:05:39.638Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:22:40.856Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:43:11.606Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:45:42.997Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:09:48.002Z"
+        },
+        {
+          "price": 2118,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:15:28.690Z"
+        },
+        {
+          "price": 4118,
+          "city": "Hyderabad",
+          "timestamp": "2026-04-28T17:34:26.904Z"
+        }
+      ],
+      "lastUpdated": "2026-04-28T17:34:26.904Z",
+      "averagePrice": 2284.6666666666665
+    },
+    "investigations": {
+      "prices": [
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:15:44.392Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:21:43.221Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T14:53:27.216Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:01:24.992Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:02:53.012Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:05:39.638Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:22:40.856Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:43:11.606Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-03T15:45:42.997Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:09:48.002Z"
+        },
+        {
+          "price": 2860,
+          "city": "Bangalore",
+          "timestamp": "2026-01-04T06:15:28.690Z"
+        },
+        {
+          "price": 4860,
+          "city": "Hyderabad",
+          "timestamp": "2026-04-28T17:34:26.904Z"
+        }
+      ],
+      "lastUpdated": "2026-04-28T17:34:26.904Z",
+      "averagePrice": 3026.6666666666665
+    },
+    "room": {
+      "prices": [
+        {
+          "price": 18000,
+          "city": "Hyderabad",
+          "timestamp": "2026-04-28T17:34:26.904Z"
+        }
+      ],
+      "lastUpdated": "2026-04-28T17:34:26.904Z",
+      "averagePrice": 18000
+    },
+    "rent": {
+      "prices": [
+        {
+          "price": 22765.54,
+          "city": "Hyderabad",
+          "timestamp": "2026-04-28T17:34:26.904Z"
+        }
+      ],
+      "lastUpdated": "2026-04-28T17:34:26.904Z",
+      "averagePrice": 22765.54
+    },
+    "pharmay": {
+      "prices": [
+        {
+          "price": 21000,
+          "city": "Hyderabad",
+          "timestamp": "2026-04-28T17:34:26.904Z"
+        }
+      ],
+      "lastUpdated": "2026-04-28T17:34:26.904Z",
+      "averagePrice": 21000
+    },
+    "medical": {
+      "prices": [
+        {
+          "price": 4400,
+          "city": "Hyderabad",
+          "timestamp": "2026-04-28T17:34:26.904Z"
+        }
+      ],
+      "lastUpdated": "2026-04-28T17:34:26.904Z",
+      "averagePrice": 4400
+    },
+    "equipment": {
+      "prices": [
+        {
+          "price": 4118,
+          "city": "Hyderabad",
+          "timestamp": "2026-04-28T17:34:26.904Z"
+        }
+      ],
+      "lastUpdated": "2026-04-28T17:34:26.904Z",
+      "averagePrice": 4118
+    }
+  }
+}
