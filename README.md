@@ -17,14 +17,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://i.postimg.cc/KYz166cW/Screenshot-2026-01-04-114329.png" width="45%" alt="Analysis Interface"/>
-  &nbsp;
-  <img src="https://i.postimg.cc/mZMPWNRR/Screenshot-2026-01-04-114543.png" width="45%" alt="Result Output"/>
-</div>
-
----
-
 ## 📂 Project Overview
 
 BillSure is a technical prototype designed to parse medical invoices using Optical Character Recognition (OCR) and Large Language Models (LLMs). The system focuses on automating the verification of line items against a reference database.
@@ -136,6 +128,3 @@ graph TD
   B -->|"Generate Complaint PDF"| E[pdf-lib / PDFKit]
   B -->|"Voice Complaint"| G[WebRTC + LangChain]
 ```
-
-## 🚨 Disclaimer
-This software is a proof-of-concept created for a hackathon/educational demonstration. It is not intended for commercial use or medical advice.
